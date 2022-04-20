@@ -56,6 +56,8 @@ class CreateFacturae(models.TransientModel):
         active_model = self.env.context.get("active_model", False)
         assert active_model == "account.move", "Bad context propagation"
         move = self.env["account.move"].browse(move_ids[0]).ensure_one()
+        if move.state == 'draft':
+            raise UserError(_("You can't export Factura-e file for draft invoices"))
         if self.firmar_facturae:
             move_file = self.env.ref("l10n_es_facturae.report_facturae_signed")._render(
                 move.ids
