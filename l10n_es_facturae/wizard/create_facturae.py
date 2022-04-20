@@ -87,6 +87,7 @@ class CreateFacturae(models.TransientModel):
         )
         return {
             "type": "ir.actions.act_window",
+            "name": _("Create Factura-E file"),
             "res_model": "create.facturae",
             "view_mode": "form",
             "res_id": self.id,
