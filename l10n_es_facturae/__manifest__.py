@@ -27,6 +27,7 @@
         "report_xml",
         "report_qweb_parameter",
         "l10n_es_aeat",
+        "partner_firstname",
     ],
     "data": [
         "security/ir.model.access.csv",
