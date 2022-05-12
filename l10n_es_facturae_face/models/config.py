@@ -11,4 +11,5 @@ class ResConfigSettings(models.TransientModel):
         string="FACe server location",
         config_parameter="account.invoice.face.server",
         required=True,
+        default="https://se-face-webservice.redsara.es/facturasspp2",
     )
