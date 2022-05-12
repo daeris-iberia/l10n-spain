@@ -7,7 +7,7 @@ class ResConfigSettings(models.TransientModel):
     _inherit = "res.config.settings"
 
     tbai_enabled = fields.Boolean(
-        related="company_id.tbai_enabled", company_dependent=True, readonly=True
+        related="company_id.tbai_enabled", company_dependent=True, readonly=False
     )
     tbai_device_serial_number = fields.Char(
         related="company_id.tbai_device_serial_number",
