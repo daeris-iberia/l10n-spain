@@ -27,7 +27,7 @@
         />
     </record>
     <record id="res_partner_oca" model="res.partner">
-        <field name="name">Odoo Community Association (OCA)</field>
+        <field name="name">Comunidad Daeris</field>
         <field name="is_company">1</field>
         <field name="city">Lausanne</field>
         <field name="zip">1015</field>
@@ -35,12 +35,7 @@
         <field name="vat">CHE-123.456.788 TVA</field>
         <field name="tbai_partner_idtype">02</field>
         <field name="street">EPFL Innovation Park, Bat. A</field>
-        <field name="website">https://odoo-community.org/</field>
-        <field
-            name="image_1920"
-            type="base64"
-            file="l10n_es_ticketbai_api/static/src/img/oca_logo.png"
-        />
+        <field name="website">https://daeris.com/</field>
     </record>
     <record id="res_partner_derbi" model="res.partner">
         <field name="name">Nacional Motor sa</field>
