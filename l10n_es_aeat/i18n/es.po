@@ -57,7 +57,7 @@ msgstr "Certificados AEAT"
 #: model:ir.model.fields,field_description:l10n_es_aeat.field_res_partner__aeat_identification_type
 #: model:ir.model.fields,field_description:l10n_es_aeat.field_res_users__aeat_identification_type
 msgid "AEAT Identification type"
-msgstr ""
+msgstr "Tipo de Identificación AEAT"
 
 #. module: l10n_es_aeat
 #: model:ir.model.fields,field_description:l10n_es_aeat.field_l10n_es_aeat_map_tax__model
