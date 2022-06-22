@@ -7,7 +7,7 @@
 
 {
     "name": "Creación de Factura-e",
-    "version": "15.0.1.0.1",
+    "version": "15.0.1.1.1",
     "author": "ASR-OSS, "
     "FactorLibre, "
     "Tecon, "
@@ -45,4 +45,5 @@
         "python": ["cryptography", "pyOpenSSL", "pycountry", "xmlsig"]
     },
     "installable": True,
+    "maintainers": ["etobella"],
 }

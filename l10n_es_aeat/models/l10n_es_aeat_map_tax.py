@@ -19,10 +19,10 @@ class L10nEsAeatMapTax(models.Model):
     )
     model = fields.Integer(string="AEAT Model", required=True)
 
-    @api.constrains("date_from", "date_to")
+    @api.constrains("date_from", "date_to", "model")
     def _unique_date_range(self):
         for map_tax in self:
-            domain = [("id", "!=", map_tax.id)]
+            domain = ["&", ("model", "=", map_tax.model), ("id", "!=", map_tax.id)]
             if map_tax.date_from and map_tax.date_to:
                 domain += [
                     "|",
@@ -48,7 +48,7 @@ class L10nEsAeatMapTax(models.Model):
                 domain += [("date_from", "<=", map_tax.date_to)]
             date_lst = map_tax.search(domain)
             if date_lst:
-                raise exceptions.Warning(
+                raise exceptions.UserError(
                     _(
                         "Error! The dates of the record overlap with an "
                         "existing record."
