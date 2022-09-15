@@ -9,20 +9,18 @@
     "Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-spain",
     "license": "AGPL-3",
-    "version": "14.0.2.1.0",
+    "version": "15.0.1.0.0",
     "depends": ["point_of_sale"],
-    "data": ["views/pos_views.xml"],#"views/pos_templates.xml",
-    'assets': {
-        'web.assets_qweb':[
-        "/l10n_es_pos/static/src/xml/pos.xml",
-        #"/l10n_es_pos/static/src/xml/Screens/OrderManagementScreen/OrderRow.xml",
-        #"/l10n_es_pos/static/src/xml/Screens/OrderManagementScreen/OrderList.xml",
+    "data": ["views/pos_views.xml"],
+    "assets": {
+        "web.assets_qweb": [
+            "l10n_es_pos/static/src/xml/pos.xml",
+            "l10n_es_pos/static/src/xml/Screens/OrderManagementScreen/TicketScreen.xml",
         ],
-        'web.assets_backend': [
-            '/l10n_es_pos/static/src/js/models.js',
-            '/l10n_es_pos/static/src/js/Screens/OrderManagementScreen/OrderRow.js',
-            '/l10n_es_pos/static/src/js/Screens/OrderManagementScreen/OrderManagementControlPanel.js',
-            '/l10n_es_pos/static/src/js/PaymentScreen.js',
+        "point_of_sale.assets": [
+            "l10n_es_pos/static/src/js/PaymentScreen.js",
+            "l10n_es_pos/static/src/js/models.js",
+            "l10n_es_pos/static/src/js/Screens/TicketScreen/TicketScreen.js",
         ],
     },
     "installable": True,

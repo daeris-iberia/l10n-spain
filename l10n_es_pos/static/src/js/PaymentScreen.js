@@ -10,6 +10,7 @@ odoo.define("l10n_es_pos.PaymentScreen", function (require) {
     const PaymentScreen = require("point_of_sale.PaymentScreen");
     const Registries = require("point_of_sale.Registries");
 
+    // eslint-disable-next-line no-shadow
     const L10nEsPosPaymentScreen = (PaymentScreen) =>
         class extends PaymentScreen {
             async validateOrder(isForceValidate) {
@@ -19,7 +20,7 @@ odoo.define("l10n_es_pos.PaymentScreen", function (require) {
                 if (this.env.pos.config.iface_l10n_es_simplified_invoice) {
                     var order = this.currentOrder;
                     if (below_limit && !order.to_invoice) {
-                        order.set_simple_inv_number();
+                        await order.set_simple_inv_number();
                     } else {
                         // Force invoice above limit. Online is needed.
                         order.to_invoice = true;
