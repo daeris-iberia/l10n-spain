@@ -1,6 +1,6 @@
 # generated from manifests external_dependencies
 chardet
-cryptography>=38.0.1
+cryptography
 pycountry
 qrcode
 requests
