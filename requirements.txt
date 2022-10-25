@@ -1,5 +1,6 @@
 # generated from manifests external_dependencies
 chardet
+pyopenssl>=22.0.0
 cryptography>=38.0.2
 pycountry
 qrcode
