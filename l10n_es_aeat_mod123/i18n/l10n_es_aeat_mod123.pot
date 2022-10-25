@@ -6,6 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-24 15:55+0000\n"
+"PO-Revision-Date: 2022-10-24 15:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -330,6 +332,11 @@ msgstr ""
 #. module: l10n_es_aeat_mod123
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod123.selection__l10n_es_aeat_mod123_report__tipo_declaracion__n
 msgid "Negativa"
+msgstr ""
+
+#. module: l10n_es_aeat_mod123
+#: model:ir.model.fields,field_description:l10n_es_aeat_mod123.field_l10n_es_aeat_mod123_report__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
 msgstr ""
 
 #. module: l10n_es_aeat_mod123

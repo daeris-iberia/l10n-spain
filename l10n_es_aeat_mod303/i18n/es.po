@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-17 10:44+0000\n"
-"PO-Revision-Date: 2021-05-06 19:47+0000\n"
+"POT-Creation-Date: 2022-10-24 16:04+0000\n"
+"PO-Revision-Date: 2022-10-24 18:05+0200\n"
 "Last-Translator: Pedro M. Baeza <pedro.baeza@gmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,help:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__casilla_46
@@ -34,8 +34,9 @@ msgstr "0 - Sin epígrafe"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod303.selection__l10n_es_aeat_mod303_report__marca_sepa__0
+#, fuzzy
 msgid "0 Vacía"
-msgstr ""
+msgstr "0 Vacía"
 
 #. module: l10n_es_aeat_mod303
 #: model:l10n.es.aeat.mod303.report.activity.code,name:l10n_es_aeat_mod303.aeat_mod303_activity_code_4t_1b
@@ -60,8 +61,9 @@ msgstr ""
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod303.selection__l10n_es_aeat_mod303_report__marca_sepa__1
+#, fuzzy
 msgid "1 Cuenta España"
-msgstr ""
+msgstr "1 Cuenta España"
 
 #. module: l10n_es_aeat_mod303
 #: model:l10n.es.aeat.mod303.report.activity.code,name:l10n_es_aeat_mod303.aeat_mod303_activity_code_12_2b
@@ -78,8 +80,9 @@ msgstr ""
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod303.selection__l10n_es_aeat_mod303_report__marca_sepa__2
+#, fuzzy
 msgid "2 Unión Europea SEPA"
-msgstr ""
+msgstr "2 Unión Europea SEPA"
 
 #. module: l10n_es_aeat_mod303
 #: model:l10n.es.aeat.mod303.report.activity.code,name:l10n_es_aeat_mod303.aeat_mod303_activity_code_12_3a
@@ -100,8 +103,9 @@ msgstr "3 - Epígrafe 862 correspondiente a: Alquiler de inmuebles rústicos"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod303.selection__l10n_es_aeat_mod303_report__marca_sepa__3
+#, fuzzy
 msgid "3 Resto Países"
-msgstr ""
+msgstr "3 Resto Países"
 
 #. module: l10n_es_aeat_mod303
 #: model:l10n.es.aeat.mod303.report.activity.code,name:l10n_es_aeat_mod303.aeat_mod303_activity_code_4t_4
@@ -198,8 +202,9 @@ msgstr "Estado de la actividad"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__activity_type_icon
+#, fuzzy
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Icono del tipo de actividad"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report_activity_code__code
@@ -213,8 +218,9 @@ msgstr "Nombre de la actividad"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__allow_posting
+#, fuzzy
 msgid "Allow Posting"
-msgstr ""
+msgstr "Permitir publicación"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__message_attachment_count
@@ -228,8 +234,9 @@ msgstr "Cuenta bancaria"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__calculation_date
+#, fuzzy
 msgid "Calculation Date"
-msgstr ""
+msgstr "Fecha de cálculo"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__company_id
@@ -243,8 +250,9 @@ msgstr "Cuenta bancaria de la compañía usada para la presentación"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__contact_email
+#, fuzzy
 msgid "Contact Email"
-msgstr ""
+msgstr "Email de contacto"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,help:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__casilla_77
@@ -370,8 +378,9 @@ msgstr "Epígrafe I.A.E. actividad principal"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__error_count
+#, fuzzy
 msgid "Error Count"
-msgstr ""
+msgstr "Recuento de errores"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields.selection,name:l10n_es_aeat_mod303.selection__l10n_es_aeat_mod303_report__exonerated_390__1
@@ -418,8 +427,9 @@ msgstr "Seguidores (Socios)"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,help:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__activity_type_icon
+#, fuzzy
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Icono Fonnt awesome p.e. fa-tasks"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__contact_name
@@ -428,8 +438,9 @@ msgstr "Nombre Completo"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__has_message
+#, fuzzy
 msgid "Has Message"
-msgstr ""
+msgstr "Tienes mensajes"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__id
@@ -488,12 +499,17 @@ msgstr ""
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,help:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__casilla_88
+#, fuzzy
 msgid ""
 "Información adicional - Operaciones realizadas en el ejercicio - Total "
 "volumen de operaciones "
 "([80]+[81]+[93]+[94]+[83]+[84]+[125]+[126]+[127]+[128]+[86]+[95]+[96]+[97]+[98]-"
 "[79]-[99])"
 msgstr ""
+"Información adicional - Operaciones realizadas en el ejercicio - Total "
+"volumen de operaciones "
+"([80]+[81]+[93]+[94]+[83]+[84]+[125]+[126]+[127]+[128]+[86]+[95]+[96]+[97]+[98]-"
+"[79]-[99])"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__message_is_follower
@@ -545,8 +561,9 @@ msgstr "Adjunto Principal"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__marca_sepa
+#, fuzzy
 msgid "Marca Sepa"
-msgstr ""
+msgstr "Marca Sepa"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,help:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__has_347
@@ -591,8 +608,16 @@ msgstr "Debe tener nombre y apellidos."
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__my_activity_date_deadline
+#, fuzzy
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Fecha límite de actividad"
+
+#. module: l10n_es_aeat_mod303
+#: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__activity_calendar_event_id
+#, fuzzy
+#| msgid "Next Activity Deadline"
+msgid "Next Activity Calendar Event"
+msgstr "Siguiente actividad de evento de calendario"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__activity_date_deadline
@@ -712,8 +737,9 @@ msgstr "Usuario Responsable"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__result_type
+#, fuzzy
 msgid "Result Type"
-msgstr ""
+msgstr "Tipo de resultado"
 
 #. module: l10n_es_aeat_mod303
 #: model:ir.model.fields,help:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__previous_result
@@ -965,30 +991,3 @@ msgstr "¿SII voluntario?"
 #: model:ir.model.fields,field_description:l10n_es_aeat_mod303.field_l10n_es_aeat_mod303_report__has_operation_volume
 msgid "¿Volumen de operaciones?"
 msgstr "¿Volumen de operaciones?"
-
-#~ msgid "Allow posting"
-#~ msgstr "Permitir generar asiento"
-
-#~ msgid "Calculation date"
-#~ msgstr "Fecha de cálculo"
-
-#~ msgid "Contact email"
-#~ msgstr "Email de contacto"
-
-#~ msgid "Followers (Channels)"
-#~ msgstr "Seguidores (Canales)"
-
-#~ msgid "Period type"
-#~ msgstr "Tipo de período"
-
-#~ msgid "Result type"
-#~ msgstr "Tipo de resultado"
-
-#~ msgid ""
-#~ "Información adicional - Operaciones realizadas en el ejercicio - Total "
-#~ "volumen de operaciones "
-#~ "([80]+[81]+[93]+[94]+[83]+[84]+[85]+[86]+[95]+[96]+[97]+[98]-[79]-[99])"
-#~ msgstr ""
-#~ "Información adicional - Operaciones realizadas en el ejercicio - Total "
-#~ "volumen de operaciones "
-#~ "([80]+[81]+[93]+[94]+[83]+[84]+[85]+[86]+[95]+[96]+[97]+[98]-[79]-[99])"

@@ -6,16 +6,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-19 15:39+0000\n"
-"PO-Revision-Date: 2022-04-19 17:51+0200\n"
+"POT-Creation-Date: 2022-10-24 17:57+0000\n"
+"PO-Revision-Date: 2022-10-24 19:59+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"Language: es\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. module: l10n_es_facturae_face
 #: model:ir.model.fields.selection,name:l10n_es_facturae_face.selection__account_move__l10n_es_facturae_status__face-2400
@@ -70,11 +70,6 @@ msgid "Company %s cannot be processed"
 msgstr "La compañía %s no puede ser procesada"
 
 #. module: l10n_es_facturae_face
-#: model:ir.model,name:l10n_es_facturae_face.model_res_config_settings
-msgid "Config Settings"
-msgstr "Opciones de Configuración"
-
-#. module: l10n_es_facturae_face
 #: code:addons/l10n_es_facturae_face/components/edi_webservice_receive_face_l10n_es_facturae_face_update.py:0
 #: code:addons/l10n_es_facturae_face/components/webservice_face.py:0
 #, python-format
@@ -114,8 +109,8 @@ msgstr "Registro de intercambio EDI"
 
 #. module: l10n_es_facturae_face
 #: model_terms:ir.ui.view,arch_db:l10n_es_facturae_face.edi_l10n_es_facturae_face_cancel_form_view
-msgid "Edi L10n Es Facturae Face Cancel"
-msgstr "Edi L10n Es Facturae Face Cancel"
+msgid "Edi L10n Es Facturae FACe Cancel"
+msgstr "Edi L10n Es Facturae Face Cancelar"
 
 #. module: l10n_es_facturae_face
 #: code:addons/l10n_es_facturae_face/components/account_move_l10n_es_facturae_face_listener.py:0
@@ -130,15 +125,11 @@ msgid "FACe"
 msgstr "FACe"
 
 #. module: l10n_es_facturae_face
-#: model_terms:ir.ui.view,arch_db:l10n_es_facturae_face.res_config_settings_view_form
-msgid "FACe Configuration"
-msgstr "Configuración FACe"
-
-#. module: l10n_es_facturae_face
-#: model:ir.model.fields,field_description:l10n_es_facturae_face.field_daeris_support_settings__face_server
-#: model:ir.model.fields,field_description:l10n_es_facturae_face.field_res_config_settings__face_server
-msgid "FACe server location"
-msgstr "Servidor FACe"
+#: model:ir.actions.server,name:l10n_es_facturae_face.update_face_job_ir_actions_server
+#: model:ir.cron,cron_name:l10n_es_facturae_face.update_face_job
+#: model:ir.cron,name:l10n_es_facturae_face.update_face_job
+msgid "FACe update Job"
+msgstr "FACe actualizar proceso"
 
 #. module: l10n_es_facturae_face
 #: model:ir.model.fields,field_description:l10n_es_facturae_face.field_res_company__face_email
@@ -243,7 +234,7 @@ msgstr "OK"
 
 #. module: l10n_es_facturae_face
 #: model:ir.model.fields.selection,name:l10n_es_facturae_face.selection__account_move__l10n_es_facturae_status__face-2500
-msgid "Payed"
+msgid "Paid"
 msgstr "Pagado"
 
 #. module: l10n_es_facturae_face
@@ -284,10 +275,21 @@ msgstr ""
 #: code:addons/l10n_es_facturae_face/models/res_partner.py:0
 #, python-format
 msgid "Vat must be defined in order to send to FACe"
-msgstr ""
-"El identificador fiscal debe estar definido para poder enviar por FACe"
+msgstr "El identificador fiscal debe estar definido para poder enviar por FACe"
 
 #. module: l10n_es_facturae_face
 #: model:ir.model,name:l10n_es_facturae_face.model_webservice_backend
 msgid "WebService Backend"
 msgstr "Back-end de WebService"
+
+#~ msgid "Config Settings"
+#~ msgstr "Opciones de Configuración"
+
+#~ msgid "FACe Configuration"
+#~ msgstr "Configuración FACe"
+
+#~ msgid "FACe server location"
+#~ msgstr "Servidor FACe"
+
+#~ msgid "Payed"
+#~ msgstr "Pagado"
