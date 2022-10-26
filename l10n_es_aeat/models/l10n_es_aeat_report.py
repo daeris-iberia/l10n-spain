@@ -140,14 +140,14 @@ class L10nEsAeatReport(models.AbstractModel):
         states={"draft": [("readonly", False)]},
     )
     statement_type = fields.Selection(
-        selection=[("N", "Normal"), ("C", "Complementary"), ("S", "Substitutive")],
+        selection=[("N", "Normal"), ("C", "Complementaria"), ("S", "Suplementaria")],
         default="N",
         readonly=True,
         required=True,
         states={"draft": [("readonly", False)]},
     )
     support_type = fields.Selection(
-        selection=[("C", "DVD"), ("T", "Telematics")],
+        selection=[("C", "DVD"), ("T", "Telemática")],
         default="T",
         readonly=True,
         required=True,
@@ -156,11 +156,11 @@ class L10nEsAeatReport(models.AbstractModel):
     calculation_date = fields.Datetime()
     state = fields.Selection(
         selection=[
-            ("draft", "Draft"),
-            ("calculated", "Processed"),
-            ("done", "Done"),
-            ("posted", "Posted"),
-            ("cancelled", "Cancelled"),
+            ("draft", "Borrador"),
+            ("calculated", "Procesado"),
+            ("done", "Realizado"),
+            ("posted", "Publicado"),
+            ("cancelled", "Cancelado"),
         ],
         default="draft",
         readonly=True,

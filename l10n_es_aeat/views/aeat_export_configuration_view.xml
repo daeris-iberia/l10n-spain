@@ -58,9 +58,15 @@
                             <field name="date_end" />
                         </group>
                     </group>
+                    <notebook>
+                        <page string="Configuration lines" name="configuration">
+                            <field name="config_line_ids" nolabel="1"/>
+                        </page>
+                    </notebook>
+                    <!--
                     <group string="Configuration lines">
                         <field name="config_line_ids" nolabel="1" />
-                    </group>
+                    </group>-->
                 </sheet>
             </form>
         </field>
