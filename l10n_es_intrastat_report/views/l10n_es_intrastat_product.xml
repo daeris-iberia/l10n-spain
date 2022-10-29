@@ -181,4 +181,20 @@
         parent="intrastat_base.menu_intrastat_base_root"
         action="l10n_es_intrastat_product_declaration_action"
     />
+    <!-- Daeris. Añadir botón asistente para actualizar codigos-->
+    <record id="view_res_config_settings" model="ir.ui.view">
+        <field name="name">intrastat.account.config.settings.form</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="intrastat_base.view_intrastat_res_config_settings" />
+        <field name="arch" type="xml">
+            <div id="intrastat-settings" position="inside">
+                <div class="o_setting_left_pane" />
+                <div class="o_setting_right_pane" id="intrastat-product-main-params">
+                    <div class="mt16">
+                        <button name="%(action_l10n_es_intrastat_code_import)d" type="action" string="Importar códigos HS de productos" class="btn-primary"/>
+                    </div>
+                </div>
+            </div>
+        </field>
+    </record>
 </odoo>
