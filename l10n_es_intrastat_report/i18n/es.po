@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-22 12:41+0000\n"
-"PO-Revision-Date: 2022-02-22 13:42+0100\n"
+"POT-Creation-Date: 2022-10-29 08:35+0000\n"
+"PO-Revision-Date: 2022-10-31 08:13+0100\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -15,35 +15,48 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #. module: l10n_es_intrastat_report
 #: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.l10n_es_intrastat_product_computation_line_view_tree
 msgid "/&gt;"
-msgstr ""
+msgstr "/&gt;"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__product_origin_country_code
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__product_origin_country_code
+#, fuzzy
 msgid ""
 "2 digit code of country of origin of the product except for the UK.\n"
 "Specify 'XI' for UK Northern Ireland and 'XU' for rest of the UK.\n"
 "Specify 'QU' when the country is unknown.\n"
 msgstr ""
+"Código de 2 dígitos del país de origen del producto, excepto para el Reino "
+"Unido.\n"
+"Especifique \"XI\" para el Reino Unido e Irlanda del Norte y \"XU\" para el "
+"resto del Reino Unido.\n"
+"Especifique \"QU\" cuando el país sea desconocido.\n"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__src_dest_country_code
+#, fuzzy
 msgid ""
 "2 digit code of country of origin/destination.\n"
 "Specify 'XI' for UK Northern Ireland and 'XU' for rest of the UK."
 msgstr ""
+"Código de 2 dígitos del país de origen/destino.\n"
+"Especifique \"XI\" para Irlanda del Norte y \"XU\" para el resto del Reino "
+"Unido."
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__src_dest_country_code
+#, fuzzy
 msgid ""
 "2 digit code of country of origin/destination.\n"
 "Specify 'XI' for UK Northern Ireland."
 msgstr ""
+"Código de 2 dígitos del país de origen/destino.\n"
+"Especifique \"XI\" para el Reino Unido e Irlanda del Norte."
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__amount_accessory_cost_company_currency
@@ -77,8 +90,9 @@ msgstr "Estado de actividad"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__activity_type_icon
+#, fuzzy
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "Icono de tipo de actividad"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__amount_company_currency
@@ -143,8 +157,9 @@ msgstr "País"
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__src_dest_country_code
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__src_dest_country_code
+#, fuzzy
 msgid "Country Code"
-msgstr ""
+msgstr "Código de país"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__product_origin_country_code
@@ -198,7 +213,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__partner_vat
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__partner_vat
 msgid "Customer VAT"
-msgstr "NIF del cliente"
+msgstr "NIF-IVA del cliente"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__declaration_line_id
@@ -230,8 +245,9 @@ msgstr "Seguidores (Contactos)"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__activity_type_icon
+#, fuzzy
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Icono de Font Awesome ej. fa-tasks"
 
 #. module: l10n_es_intrastat_report
 #: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.l10n_es_intrastat_product_declaration_view_form
@@ -240,8 +256,9 @@ msgstr "Generar declaración en CSV"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__has_message
+#, fuzzy
 msgid "Has Message"
-msgstr ""
+msgstr "Tiene mensaje"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_code_import__id
@@ -285,6 +302,12 @@ msgid "Import Spanish Product HS Codes"
 msgstr "Importar Códigos HS españoles de producto"
 
 #. module: l10n_es_intrastat_report
+#: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.view_res_config_settings
+#, fuzzy
+msgid "Importar códigos HS de productos"
+msgstr "Importar códigos HS de productos"
+
+#. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__incoterm_id
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__incoterm_id
 msgid "Incoterm"
@@ -299,12 +322,12 @@ msgstr "Código Intrastat"
 #. module: l10n_es_intrastat_report
 #: model:ir.model,name:l10n_es_intrastat_report.model_l10n_es_intrastat_code_import
 msgid "Intrastat HS Code Import for Spain"
-msgstr ""
+msgstr "Importación de códigos HS de Intrastat"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model,name:l10n_es_intrastat_report.model_l10n_es_intrastat_product_computation_line
 msgid "Intrastat Product Computation Line for Spain"
-msgstr ""
+msgstr "Línea de cálculo de productos Intrastat"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__computation_line_ids
@@ -315,12 +338,12 @@ msgstr "Líneas de cálculo de Intrastat"
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__parent_id
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__parent_id
 msgid "Intrastat Product Declaration"
-msgstr "Declaración de producto Intrastat"
+msgstr "Declaración de operaciones de intercambio de mercancías"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model,name:l10n_es_intrastat_report.model_l10n_es_intrastat_product_declaration_line
 msgid "Intrastat Product Declaration Line for Spain"
-msgstr ""
+msgstr "Línea de declaración de productos Intrastat"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__declaration_line_ids
@@ -423,16 +446,16 @@ msgstr "Mensajes"
 #. module: l10n_es_intrastat_report
 #: code:addons/l10n_es_intrastat_report/models/l10n_es_intrastat_product_declaration.py:0
 #: code:addons/l10n_es_intrastat_report/tests/test_l10n_es_intrastat_report.py:0
-#, python-format
+#, fuzzy, python-format
 msgid "Missing origin country on product %s. "
-msgstr ""
+msgstr "Falta el país de origen en el %s del producto. "
 
 #. module: l10n_es_intrastat_report
 #: code:addons/l10n_es_intrastat_report/models/l10n_es_intrastat_product_declaration.py:0
 #: code:addons/l10n_es_intrastat_report/tests/test_l10n_es_intrastat_report.py:0
 #, python-format
 msgid "Missing partner vat on invoice %s. "
-msgstr ""
+msgstr "Falta el NIF-IVA del contacto en la factura %s. "
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__month
@@ -441,13 +464,21 @@ msgstr "Mes"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__my_activity_date_deadline
+#, fuzzy
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "Mi fecha de límite de actividad"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__weight
 msgid "Net weight in Kg"
 msgstr "Peso neto en kg"
+
+#. module: l10n_es_intrastat_report
+#: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__activity_calendar_event_id
+#, fuzzy
+#| msgid "Next Activity Deadline"
+msgid "Next Activity Calendar Event"
+msgstr "Siguiente actividad de evento de calendario"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__activity_date_deadline
@@ -501,8 +532,9 @@ msgstr "Nº de mensajes sin leer"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__partner_id
+#, fuzzy
 msgid "Partner"
-msgstr ""
+msgstr "Empresa"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__year_month
@@ -607,8 +639,9 @@ msgstr ""
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__invoice_id
+#, fuzzy
 msgid "The move of this entry line."
-msgstr ""
+msgstr "El movimiento de esta línea de entrada."
 
 #. module: l10n_es_intrastat_report
 #: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.view_l10n_es_intrastat_code_import
@@ -672,13 +705,13 @@ msgstr "Usado para rastrear los cambios"
 #: code:addons/l10n_es_intrastat_report/report/intrastat_product_report_xls.py:0
 #, python-format
 msgid "VAT"
-msgstr "NIF"
+msgstr "NIF-IVA"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__vat
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__vat
 msgid "VAT Number"
-msgstr ""
+msgstr "Número NIF-IVA"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__valid
@@ -704,18 +737,21 @@ msgstr "Peso"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__xml_attachment_id
+#, fuzzy
 msgid "XML Attachment"
-msgstr ""
+msgstr "Adjunto XML"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__xml_attachment_datas
+#, fuzzy
 msgid "XML Export"
-msgstr ""
+msgstr "Exportar a XML"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__xml_attachment_name
+#, fuzzy
 msgid "XML Filename"
-msgstr ""
+msgstr "Nombre de archivo XML"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__year

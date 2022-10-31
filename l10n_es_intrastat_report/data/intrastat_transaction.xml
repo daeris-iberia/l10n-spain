@@ -11,7 +11,7 @@
         <field name="code">12</field>
         <field
             name="description"
-        >Transacciones que supongan un traspaso de propiedad real o previsto de residentes a no residentes a cambio de una compensación financiera o de otro tipo: Entrega para venta a la vista o de prueba, para consignación o con la mediación de un agente comisionado.</field>
+        >Transacciones que supongan un traspaso de propiedad real o previsto de residentes a no residentes a cambio de una compensación financiera o de otro tipo:  Entrega para venta a la vista o de prueba, para consignación o con la mediación de un agente comisionado.</field>
         <field name="company_id" eval="False" />
     </record>
     <record id="intrastat_transaction_13" model="intrastat.transaction">
@@ -26,7 +26,7 @@
         <field name="code">14</field>
         <field
             name="description"
-        >Transacciones que supongan un traspaso de propiedad real o previsto de residentes a no residentes a cambio de una compensación financiera o de otro tipo: Arrendamiento financiero (alquiler - compra).</field>
+        >Transacciones que supongan un traspaso de propiedad real o previsto de residentes a no residentes a cambio de una compensación financiera o de otro tipo: Arrendamiento financiero (alquiler-compra).</field>
         <field name="company_id" eval="False" />
         <field name="active" eval="False" />
     </record>
@@ -195,7 +195,7 @@
         <field name="code">91</field>
         <field
             name="description"
-        >Suministro de materiales de construcción y maquinaria para trabajos en el marco de un contrato general de construcción o ingeniería.</field>
+        >Otras transacciones que no se pueden clasificar bajo otros códigos.Alquiler, préstamo y arrendamiento operativo por un período superior a veinticuatro meses.</field>
         <field name="company_id" eval="False" />
     </record>
     <record id="intrastat_transaction_99" model="intrastat.transaction">
