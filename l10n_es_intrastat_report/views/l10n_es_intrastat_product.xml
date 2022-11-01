@@ -191,7 +191,7 @@
                 <div class="o_setting_left_pane" />
                 <div class="o_setting_right_pane" id="intrastat-product-main-params">
                     <div class="mt16">
-                        <button name="%(l10n_es_intrastat_report.action_l10n_es_intrastat_code_import)d" type="action" string="Importar códigos HS de productos" class="btn-primary"/>
+                        <button name="%(action_l10n_es_intrastat_code_import)d" type="action" string="Importar códigos HS de productos" class="btn-primary"/>
                     </div>
                 </div>
             </div>

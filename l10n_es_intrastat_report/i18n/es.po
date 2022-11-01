@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-29 08:35+0000\n"
-"PO-Revision-Date: 2022-10-31 08:13+0100\n"
+"PO-Revision-Date: 2022-11-01 05:33+0100\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -338,7 +338,7 @@ msgstr "Líneas de cálculo de Intrastat"
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__parent_id
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration_line__parent_id
 msgid "Intrastat Product Declaration"
-msgstr "Declaración de operaciones de intercambio de mercancías"
+msgstr "Intrastat - Declaración de operaciones de intercambio de mercancías"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model,name:l10n_es_intrastat_report.model_l10n_es_intrastat_product_declaration_line
@@ -571,7 +571,8 @@ msgstr "Error de entrega de SMS"
 #. module: l10n_es_intrastat_report
 #: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.l10n_es_intrastat_product_declaration_view_search
 msgid "Search Spanish Intrastat Product Declaration"
-msgstr "Buscar declaraciones de producto Intrastat españolas"
+msgstr ""
+"Buscar declaraciones de operaciones de intercambio de mercancías Intrastat"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.actions.act_window,name:l10n_es_intrastat_report.l10n_es_intrastat_product_declaration_action
@@ -580,12 +581,12 @@ msgstr "Buscar declaraciones de producto Intrastat españolas"
 #: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.l10n_es_intrastat_product_declaration_view_graph
 #: model_terms:ir.ui.view,arch_db:l10n_es_intrastat_report.l10n_es_intrastat_product_declaration_view_tree
 msgid "Spanish Intrastat Product Declaration"
-msgstr "Declaración de producto Intrastat española"
+msgstr "Intrastat - Declaración de operaciones de intercambio de mercancías"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,field_description:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__state
 msgid "State"
-msgstr "Provincia"
+msgstr "Estado"
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_declaration__state
@@ -634,8 +635,7 @@ msgid ""
 "The Spanish Intrastat Declaration requires the Company's Country to be equal "
 "to 'Spain'."
 msgstr ""
-"La declaración Intrastat española requiere que el país de la compañía sea "
-"'España'."
+"La declaración Intrastat requiere que el país de la compañía sea 'España'."
 
 #. module: l10n_es_intrastat_report
 #: model:ir.model.fields,help:l10n_es_intrastat_report.field_l10n_es_intrastat_product_computation_line__invoice_id
