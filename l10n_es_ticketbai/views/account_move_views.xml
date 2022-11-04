@@ -122,19 +122,15 @@
                         string="Files Sent"
                         attrs="{'invisible': [('tbai_invoice_ids', '=', []),('tbai_cancellation_ids', '=', [])]}"
                     >
-                        <group
-                            name="tbai_sent_customer_invoices"
-                            string="Customer Invoices"
-                            colspan="4"
-                            attrs="{'invisible': [('tbai_invoice_ids', '=', [])]}"
-                        >
-                            <field
-                                name="tbai_invoice_ids"
-                                readonly="1"
-                                options="{'no_open':True,'no_create':True}"
-                                nolabel="1"
-                            />
+                        <!-- INC: La URL de ticketbai es muy larga y desborda el formulario. Se saca del group para solventarlo.
+                        <group name="tbai_sent_customer_invoices" string="Customer Invoices" colspan="4" attrs="{'invisible': [('tbai_invoice_ids', '=', [])]}">
+                            <field name="tbai_invoice_ids" readonly="1" options="{'no_open':True,'no_create':True}" nolabel="1"/>
                         </group>
+                        -->
+                        <group name="tbai_sent_customer_invoices" string="Customer Invoices" attrs="{'invisible': [('tbai_invoice_ids', '=', [])]}">
+                        </group>
+                        <field name="tbai_invoice_ids" readonly="1" options="{'no_open':True,'no_create':True}" nolabel="1" attrs="{'invisible': [('tbai_invoice_ids', '=', [])]}"/>
+
                         <group
                             name="tbai_sent_customer_cancellations"
                             string="Customer Cancellations"
