@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-11-03 10:26+0000\n"
-"PO-Revision-Date: 2022-11-03 11:27+0100\n"
+"PO-Revision-Date: 2022-11-07 10:36+0100\n"
 "Last-Translator: olatzavanzosc <olatzaranguren@avanzosc.es>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -972,8 +972,8 @@ msgstr "Hacienda"
 #, python-format
 msgid "Tax agency cannot be modified after a TicketBAI invoice has been sent."
 msgstr ""
-"Número de identificación fiscal. Llénelo si la compañía está sujeta a "
-"impuestos. Usado por algunos documentos legales."
+"La Agencia Tributaria (hacienda) no puede ser modificada después de que se "
+"haya enviado una factura de TicketBAI."
 
 #. module: l10n_es_ticketbai_api
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api.field_res_partner__tbai_enabled
