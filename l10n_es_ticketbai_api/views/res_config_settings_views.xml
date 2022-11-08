@@ -6,9 +6,8 @@
         <field name="inherit_id" ref="account.res_config_settings_view_form" />
         <field name="arch" type="xml">
             <xpath expr="//div[@id='analytic']" position="after">
-                <!--<field name="tbai_enabled" invisible="1" />-->
                 <h2>TicketBAI</h2>
-                <div class="row mt16 o_settings_container" id="ticketbai"> <!-- attrs="{'invisible': [('tbai_enabled','=',False)]}" -->
+                <div class="row mt16 o_settings_container" id="ticketbai">
                     <div class="col-xs-12 col-md-6 o_setting_box">
                         <div class="o_setting_right_pane">
                             <label string="Device Serial Number" for="tbai_device_serial_number"/>
