@@ -6,20 +6,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-08-29 10:07+0000\n"
+"POT-Creation-Date: 2022-11-08 07:52+0000\n"
+"PO-Revision-Date: 2022-11-08 08:58+0100\n"
 "Last-Translator: olatzavanzosc <olatzaranguren@avanzosc.es>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3.2\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: l10n_es_ticketbai_api_batuz
+#: model:ir.ui.menu,name:l10n_es_ticketbai_api_batuz.menu_lroe_chapters
+#, fuzzy
+#| msgid "Batuz/LROE - Chapters"
+msgid "Batuz/LROE - Capitulos"
+msgstr "Batuz/LROE - Capitulos"
 
 #. module: l10n_es_ticketbai_api_batuz
 #: model:ir.actions.act_window,name:l10n_es_ticketbai_api_batuz.action_lroe_chapter
 msgid "Batuz/LROE - Chapters"
 msgstr "Batuz/LROE - Capitulos"
+
+#. module: l10n_es_ticketbai_api_batuz
+#: model:ir.ui.menu,name:l10n_es_ticketbai_api_batuz.menu_lroe_operations
+msgid "Batuz/LROE - Operaciones"
+msgstr "Batuz/LROE - Operaciones"
 
 #. module: l10n_es_ticketbai_api_batuz
 #: model:ir.model.fields.selection,name:l10n_es_ticketbai_api_batuz.selection__lroe_operation_response__state__-2
@@ -36,11 +49,6 @@ msgstr "Cancelar"
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__lroe_chapter_id
 msgid "Chapter"
 msgstr "Capitulo"
-
-#. module: l10n_es_ticketbai_api_batuz
-#: model:ir.ui.menu,name:l10n_es_ticketbai_api_batuz.menu_lroe_chapters
-msgid "Chapters"
-msgstr "Capitulos"
 
 #. module: l10n_es_ticketbai_api_batuz
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_chapter__code
@@ -183,11 +191,6 @@ msgstr "API interna o error operacional"
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai_api_batuz.lroe_operation_form_view
 msgid "Invoice"
 msgstr "Factura"
-
-#. module: l10n_es_ticketbai_api_batuz
-#: model:ir.ui.menu,name:l10n_es_ticketbai_api_batuz.menu_lroe_root
-msgid "LROE"
-msgstr "LROE"
 
 #. module: l10n_es_ticketbai_api_batuz
 #: model:ir.model,name:l10n_es_ticketbai_api_batuz.model_lroe_chapter
@@ -369,11 +372,6 @@ msgid "Operation global responses"
 msgstr "Respuestas globales de la operación"
 
 #. module: l10n_es_ticketbai_api_batuz
-#: model:ir.ui.menu,name:l10n_es_ticketbai_api_batuz.menu_lroe_operations
-msgid "Operations"
-msgstr "Operaciones"
-
-#. module: l10n_es_ticketbai_api_batuz
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_chapter__lroe_chapter_id
 msgid "Parent chapter"
 msgstr "Capitulo padre"
@@ -508,3 +506,12 @@ msgstr "Respuesta XML"
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api_batuz.field_lroe_operation__xml_datas
 msgid "Xml Datas"
 msgstr "Datos XML"
+
+#~ msgid "Chapters"
+#~ msgstr "Capitulos"
+
+#~ msgid "LROE"
+#~ msgstr "LROE"
+
+#~ msgid "Operations"
+#~ msgstr "Operaciones"

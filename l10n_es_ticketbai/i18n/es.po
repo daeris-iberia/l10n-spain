@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 10:25+0000\n"
-"PO-Revision-Date: 2022-11-03 11:28+0100\n"
+"POT-Creation-Date: 2022-11-08 07:52+0000\n"
+"PO-Revision-Date: 2022-11-08 08:53+0100\n"
 "Last-Translator: olatzavanzosc <olatzaranguren@avanzosc.es>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -235,11 +235,6 @@ msgstr "Plantilla de posición fiscal"
 #: model:ir.model.fields.selection,name:l10n_es_ticketbai.selection__res_company__tbai_description_method__fixed
 msgid "Fixed"
 msgstr "Predefinido"
-
-#. module: l10n_es_ticketbai
-#: model:ir.ui.menu,name:l10n_es_ticketbai.menu_finance_ticketbai_general_info
-msgid "General Info"
-msgstr "Información general"
 
 #. module: l10n_es_ticketbai
 #: model_terms:ir.ui.view,arch_db:l10n_es_ticketbai.tbai_invoice_search
@@ -846,6 +841,11 @@ msgid "VAT Regimes"
 msgstr "Claves de regímenes de IVA"
 
 #. module: l10n_es_ticketbai
+#: model:ir.ui.menu,name:l10n_es_ticketbai.menu_finance_ticketbai_general_info
+msgid "Versión de Software"
+msgstr "Versión de Software"
+
+#. module: l10n_es_ticketbai
 #: model:ir.model,name:l10n_es_ticketbai.model_l10n_es_aeat_certificate_password
 msgid "Wizard to Load AEAT Certificate"
 msgstr "Asistente para cargar el certificado AEAT"
@@ -873,3 +873,6 @@ msgid ""
 msgstr ""
 "No puedes dejar de enviar facturas de este diario, al menos una factura ya "
 "ha sido enviada."
+
+#~ msgid "General Info"
+#~ msgstr "Información general"
