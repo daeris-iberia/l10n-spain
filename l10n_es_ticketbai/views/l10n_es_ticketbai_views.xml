@@ -37,5 +37,6 @@
         parent="menu_l10n_es_tbai_config"
         action="l10n_es_ticketbai_api.action_tbai_installations"
         name="TicketBAI Installations"
+        groups="base.group_no_one"
     />
 </odoo>

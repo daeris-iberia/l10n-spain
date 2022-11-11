@@ -33,5 +33,6 @@
         parent="l10n_es_ticketbai.menu_l10n_es_tbai_config"
         action="action_tbai_vat_regime_key"
         name="TicketBAI VAT Regime mapping keys"
+        groups="base.group_no_one"
     />
 </odoo>

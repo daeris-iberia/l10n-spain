@@ -38,5 +38,6 @@
         parent="l10n_es_ticketbai.menu_l10n_es_tbai_config"
         action="action_tbai_tax_map"
         name="TicketBAI Tax Map"
+        groups="base.group_no_one"
     />
 </odoo>
