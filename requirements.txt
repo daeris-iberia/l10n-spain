@@ -4,7 +4,7 @@ pyopenssl==22.1.0
 cryptography==38.0.1
 pycountry
 qrcode
-requests
+requests==2.26.0
 requests_pkcs12
 suds-py3
 unidecode
