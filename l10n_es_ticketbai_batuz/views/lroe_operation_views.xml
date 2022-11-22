@@ -3,7 +3,7 @@
      Copyright 2021 Digital5, S.L.
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo>
-
+<!--
     <menuitem
         id="l10n_es_ticketbai_api_batuz.menu_lroe_root"
         groups="account.group_account_manager"
@@ -11,7 +11,7 @@
         sequence="40"
         parent="l10n_es_ticketbai.menu_l10n_es_tbai_config"
     />
-
+-->
     <record id="lroe_operation_form_view_inherit_batuz" model="ir.ui.view">
         <field name="name">lroe.operation.form.view</field>
         <field name="model">lroe.operation</field>

@@ -42,9 +42,9 @@
     </record>
     <menuitem
         id="menu_finance_ticketbai_general_info"
-        name="General Info"
+        name="Versión de Software"
         action="action_ticketbai_general_info"
-        parent="l10n_es_ticketbai.menu_finance_ticketbai"
+        parent="l10n_es_ticketbai.menu_l10n_es_tbai_config"
         sequence="10"
     />
 </odoo>

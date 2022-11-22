@@ -14,7 +14,7 @@
     "auto_install": False,
     "development_status": "Beta",
     "maintainers": ["ao-landoo"],
-    "depends": ["base", "base_setup"],
+    "depends": ["base", "base_setup", "account"],
     "external_dependencies": {
         "python": [
             "qrcode",

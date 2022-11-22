@@ -23,7 +23,7 @@ class PosConfig(models.Model):
     _inherit = "pos.config"
 
     tbai_enabled = fields.Boolean(related="company_id.tbai_enabled", readonly=True)
-    tbai_device_serial_number = fields.Char(string="Device Serial Number")
+    tbai_device_serial_number = fields.Char(string="Device Serial Number", size=30)
     tbai_last_invoice_id = fields.Many2one(
         string="Last TicketBAI Invoice sent", comodel_name="tbai.invoice", copy=False
     )

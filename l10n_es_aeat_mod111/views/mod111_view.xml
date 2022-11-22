@@ -206,7 +206,10 @@
         <field name="name">AEAT model 111</field>
         <field name="res_model">l10n.es.aeat.mod111.report</field>
         <field name="view_mode">form,tree</field>
-        <field name="help">Create and query AEAT Model 111 reports.</field>
+        <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">Create and query AEAT Model 111 reports.
+              </p>
+        </field>
     </record>
     <record
         model="ir.actions.act_window.view"

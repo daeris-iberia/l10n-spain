@@ -170,6 +170,7 @@ class L10nEsAeatReportExportToBoe(models.TransientModel):
             "view_id": [data_obj.id],
             "res_id": self.id,
             "target": "new",
+            "name": "Resultado de la exportación",
         }
 
     def action_get_file_from_config(self, report):

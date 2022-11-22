@@ -360,11 +360,12 @@
     </record>
 
     <!-- MENU -->
+    <!--
     <menuitem
         id="menu_lroe_root"
-        parent="l10n_es_ticketbai_api.menu_l10n_es_tbai_config"
+        parent="l10n_es_ticketbai.menu_l10n_es_tbai_config"
         name="LROE"
-    />
+    />-->
 
     <record id="action_lroe_operation" model="ir.actions.act_window">
         <field name="name">TicketBAI LROE - Operations</field>
@@ -382,15 +383,17 @@
 
     <menuitem
         id="menu_lroe_operations"
-        parent="menu_lroe_root"
+        parent="l10n_es_ticketbai.menu_l10n_es_tbai_config"
         action="action_lroe_operation"
-        name="Operations"
+        name="Batuz/LROE - Operaciones"
+        sequence="100"
     />
 
     <menuitem
         id="menu_lroe_chapters"
-        parent="menu_lroe_root"
+        parent="l10n_es_ticketbai.menu_l10n_es_tbai_config"
         action="action_lroe_chapter"
-        name="Chapters"
+        name="Batuz/LROE - Capitulos"
+        sequence="101"
     />
 </odoo>

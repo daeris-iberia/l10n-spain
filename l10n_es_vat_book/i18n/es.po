@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-25 04:20+0000\n"
-"PO-Revision-Date: 2022-10-25 06:22+0200\n"
+"POT-Creation-Date: 2022-10-28 05:33+0000\n"
+"PO-Revision-Date: 2022-10-28 10:42+0200\n"
 "Last-Translator: Luis D. Lafaurie <luislafaurie@hotmail.com>\n"
 "Language-Team: \n"
 "Language: es\n"
@@ -130,11 +130,6 @@ msgid "Calculation Date"
 msgstr "Fecha de cálculo"
 
 #. module: l10n_es_vat_book
-#: model_terms:ir.actions.act_window,help:l10n_es_vat_book.l10n_es_vat_book_action
-msgid "Click to create a new VAT book."
-msgstr "Pulse para crear un nuevo libro de IVA."
-
-#. module: l10n_es_vat_book
 #: model:ir.model.fields,field_description:l10n_es_vat_book.field_l10n_es_vat_book__company_id
 msgid "Company"
 msgstr "Empresa"
@@ -168,6 +163,11 @@ msgstr "Teléfono de contacto:"
 #: model:ir.model.fields,field_description:l10n_es_vat_book.field_l10n_es_vat_book__counterpart_account_id
 msgid "Counterpart account"
 msgstr "Cuenta de contrapartida"
+
+#. module: l10n_es_vat_book
+#: model_terms:ir.actions.act_window,help:l10n_es_vat_book.l10n_es_vat_book_action
+msgid "Create and query AEAT VAT book."
+msgstr "Crea y consulta libros de IVA de la AEAT."
 
 #. module: l10n_es_vat_book
 #: model:ir.model.fields,field_description:l10n_es_vat_book.field_aeat_vat_book_map_line__create_uid
@@ -237,7 +237,7 @@ msgstr "Texto de la excepción"
 #. module: l10n_es_vat_book
 #: model_terms:ir.ui.view,arch_db:l10n_es_vat_book.view_l10n_es_vat_book_form
 msgid "Export BOE"
-msgstr "Exportar BOE"
+msgstr "Exportar Fichero"
 
 #. module: l10n_es_vat_book
 #: model:ir.model.fields,field_description:l10n_es_vat_book.field_l10n_es_vat_book__export_config_id
@@ -948,7 +948,7 @@ msgstr "Usted tiene"
 #. module: l10n_es_vat_book
 #: model_terms:ir.ui.view,arch_db:l10n_es_vat_book.view_l10n_es_vat_book_form
 msgid "errors"
-msgstr "Errores"
+msgstr "errores"
 
 #. module: l10n_es_vat_book
 #: model_terms:ir.ui.view,arch_db:l10n_es_vat_book.view_l10n_es_vat_book_form
@@ -965,117 +965,3 @@ msgstr ""
 #: model:ir.actions.report,print_report_name:l10n_es_vat_book.l10n_es_vat_book_xlsx
 msgid "object.get_report_file_name()"
 msgstr "object.get_report_file_name()"
-
-#~ msgid "Base amount"
-#~ msgstr "Importe base"
-
-#~ msgid "Book type"
-#~ msgstr "Tipo de libro"
-
-#~ msgid "Contact email"
-#~ msgstr "Email contacto"
-
-#~ msgid "Entry number"
-#~ msgstr "Nº entrada"
-
-#~ msgid "Exception text"
-#~ msgstr "Texto de excepción"
-
-#~ msgid "Followers (Channels)"
-#~ msgstr "Seguidores (Canales)"
-
-#~ msgid "Line type"
-#~ msgstr "Tipo de línea"
-
-#~ msgid "Period type"
-#~ msgstr "Tipo de periodo"
-
-#~ msgid "Tax amount"
-#~ msgstr "Cuota impuesto"
-
-#~ msgid "Total amount"
-#~ msgstr "Importe Total"
-
-#~ msgid "Cancelled"
-#~ msgstr "Cancelado"
-
-#~ msgid "Complementary"
-#~ msgstr "Complementaria"
-
-#~ msgid "DVD"
-#~ msgstr "DVD"
-
-#~ msgid "Done"
-#~ msgstr "Hecho"
-
-#~ msgid "Draft"
-#~ msgstr "Borrador"
-
-#~ msgid "If checked new messages require your attention."
-#~ msgstr "Si está marcado, hay mensajes que requieren su atención."
-
-#~ msgid "Invoice"
-#~ msgstr "Factura"
-
-#~ msgid "Normal"
-#~ msgstr "Normal"
-
-#~ msgid "Overdue"
-#~ msgstr "Atrasado"
-
-#~ msgid "Planned"
-#~ msgstr "Planificado"
-
-#~ msgid "Posted"
-#~ msgstr "Contabilizado"
-
-#~ msgid "Processed"
-#~ msgstr "Procesado"
-
-#~ msgid "Substitutive"
-#~ msgstr "Sustitutiva"
-
-#~ msgid "Telematics"
-#~ msgstr "Telemática"
-
-#~ msgid "Today"
-#~ msgstr "Hoy"
-
-#~ msgid "VAT Book Invoices Issued"
-#~ msgstr "Libro de IVA Facturas Emitidas"
-
-#~ msgid "VAT Book Invoices Received"
-#~ msgstr "Libro de IVA Facturas Recibidas"
-
-#~ msgid "report.l10n_es_vat_book.l10n_es_vat_book_xlsx"
-#~ msgstr "report.l10n_es_vat_book.l10n_es_vat_book_xlsx"
-
-#~ msgid "l10n.es.vat.book"
-#~ msgstr "l10n.es.vat.book"
-
-#~ msgid "l10n.es.vat.book.line"
-#~ msgstr "l10n.es.vat.book.line"
-
-#~ msgid "l10n.es.vat.book.line.tax"
-#~ msgstr "l10n.es.vat.book.line.tax"
-
-#~ msgid "l10n.es.vat.book.summary"
-#~ msgstr "l10n.es.vat.book.summary"
-
-#~ msgid "l10n.es.vat.book.tax.summary"
-#~ msgstr "l10n.es.vat.book.tax.summary"
-
-#~ msgid "None"
-#~ msgstr "Ninguno"
-
-#~ msgid "Purchases"
-#~ msgstr "Compras"
-
-#~ msgid "Sales"
-#~ msgstr "Ventas"
-
-#~ msgid "Tax Scope"
-#~ msgstr "Ámbito del impuesto"
-
-#~ msgid "Templates for Taxes"
-#~ msgstr "Plantilla de impuestos"

@@ -95,7 +95,10 @@
         <field name="name">AEAT model 115</field>
         <field name="res_model">l10n.es.aeat.mod115.report</field>
         <field name="view_mode">form,tree</field>
-        <field name="help">Create and query AEAT Model 115 reports.</field>
+        <field name="help" type="html">
+              <p class="o_view_nocontent_smiling_face">Create and query AEAT Model 115 reports.
+              </p>
+        </field>
     </record>
     <record
         id="action_l10n_es_aeat_mod115_report_tree"

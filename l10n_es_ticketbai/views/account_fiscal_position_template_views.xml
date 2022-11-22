@@ -117,5 +117,6 @@
         parent="l10n_es_ticketbai.menu_l10n_es_tbai_config"
         action="action_tbai_account_fiscal_position_template"
         name="Fiscal Position Template"
+        groups="base.group_no_one"
     />
 </odoo>

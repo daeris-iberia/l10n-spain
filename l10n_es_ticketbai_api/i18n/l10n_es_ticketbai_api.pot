@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-25 04:10+0000\n"
-"PO-Revision-Date: 2022-10-25 04:10+0000\n"
+"POT-Creation-Date: 2022-11-03 10:26+0000\n"
+"PO-Revision-Date: 2022-11-03 10:26+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -432,6 +432,11 @@ msgstr ""
 #. module: l10n_es_ticketbai_api
 #: model:ir.model.fields,field_description:l10n_es_ticketbai_api.field_tbai_invoice_customer__identification_number
 msgid "Identification Number"
+msgstr ""
+
+#. module: l10n_es_ticketbai_api
+#: model:ir.model.fields,help:l10n_es_ticketbai_api.field_tbai_installation__vat
+msgid "Identification Number for selected type"
 msgstr ""
 
 #. module: l10n_es_ticketbai_api
@@ -968,13 +973,6 @@ msgstr ""
 #: code:addons/l10n_es_ticketbai_api/models/ticketbai_invoice.py:0
 #, python-format
 msgid "The Company %s VAT Number is required."
-msgstr ""
-
-#. module: l10n_es_ticketbai_api
-#: model:ir.model.fields,help:l10n_es_ticketbai_api.field_tbai_installation__vat
-msgid ""
-"The Tax Identification Number. Complete it if the contact is subjected to "
-"government taxes. Used in some legal statements."
 msgstr ""
 
 #. module: l10n_es_ticketbai_api
